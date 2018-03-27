@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Triva Game</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<header id="masthead">
+		<div class="container">
+			<h1>Answer My Questions.</h1>
+		</div>
+	</header>
+	<div id="main-container" class="container">
+		<section class="main-section">
+			<h1 class="rules">Rules</h1>
+			<p class="rules">There are five questions; you have fifty seconds to answer all of them.</p>
+			<h2>
+				<button type="button" id="start-button">Start</button>
+			</h2>
+
+			<div id="show-number"></div>
+
+			<p class="question">1. Who is Satsuki's oldest friend?</p>
+			<ul class="answers">
+			<input type="radio" name="q1" value="a" id="q1a"><label for="q1a">Jakuzure Nonon</label><br/>
+			<input type="radio" name="q1" value="b" id="q1b"><label for="q1b">Matoi Ryuko</label><br/>
+			<input type="radio" name="q1" value="c" id="q1c"><label for="q1c">Harime Nui</label><br/>
+			<input type="radio" name="q1" value="d" id="q1d"><label for="q1d">Sanageyama Uzu</label><br/>
+			</ul>
+
+			<p class="question">2. Who is most loyal to Ryuko?</p>
+			<ul class="answers">
+			<input type="radio" name="q2" value="a" id="q2a"><label for="q2a">Kiryuin Satsuki</label><br/>
+			<input type="radio" name="q2" value="b" id="q2b"><label for="q2b">Guts</label><br/>
+			<input type="radio" name="q2" value="c" id="q2c"><label for="q2c">Mankanshoku Mako</label><br/>
+			<input type="radio" name="q2" value="d" id="q2d"><label for="q2d">Harime Nui</label><br/>
+			</ul>
+
+			<p class="question">3. President Kiryuin Satsuki's Student Council has five members, including the president -- Sanageyama, the Athletic Committee Chair; Jakuzure, the Non-Athletic Committee Chair; Inumuta, the Information and Strategy Committee Chair. Who is the fifth member, the Disciplinary Committee Chair?</p>
+			<ul class="answers">
+			<input type="radio" name="q3" value="a" id="q3a"><label for="q3a">Matoi Ryuko</label><br/>
+			<input type="radio" name="q3" value="b" id="q3b"><label for="q3b">Kiryuin Satsuki</label><br/>
+			<input type="radio" name="q3" value="c" id="q3c"><label for="q3c">Gamagori Ira</label><br/>
+			<input type="radio" name="q3" value="d" id="q3d"><label for="q3d">Jakuzure Nonon</label><br/>
+			</ul>
+
+			<p class="question">4. What other name does the Student Council NOT go by?</p>
+			<ul class="answers">
+			<input type="radio" name="q4" value="a" id="q4a"><label for="q4a">The Elite Four</label><br/>
+			<input type="radio" name="q4" value="b" id="q4b"><label for="q4b">Goku Champions</label><br/>
+			<input type="radio" name="q4" value="c" id="q4c"><label for="q4c">Four Heavenly Kings</label><br/>
+			<input type="radio" name="q4" value="d" id="q4d"><label for="q4d">Four Devas</label><br/>
+			</ul>
+
+			<p class="question">5. What is Ryuoko's initial motivation?</p>
+			<ul class="answers">
+			<input type="radio" name="q5" value="a" id="q5a"><label for="q5a">Gaining allies</label><br/>
+			<input type="radio" name="q5" value="b" id="q5b"><label for="q5b">Befriending her enemies</label><br/>
+			<input type="radio" name="q5" value="c" id="q5c"><label for="q5c">Searching for something stolen</label><br/>
+			<input type="radio" name="q5" value="d" id="q5d"><label for="q5d">Revenge for a dead loved one</label><br/>
+			</ul>
+
+			<button type="button" id="submit">Submit Answers</button>
+	
+			<div id="results">
+			Your Score
+		
+			</div>
+			<button type="button" id="restart">Play Again</button>
+		</section>
+	</div>
+	<footer id="footer" class="site-footer">
+
+	</footer>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+	<script type="text/javascript" src="/js/questions.js"></script>
+</body>
+</html>
